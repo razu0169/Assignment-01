@@ -117,3 +117,74 @@ ul li {
   margin-top: 116px;
   border-radius: 24px;
 }
+
+/* Client section */
+.client {
+  margin-top: 137px;
+}
+.client .title {
+  font-weight: bold;
+  font-size: 42px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.client .main {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.client .main .card {
+  background-color: #f2eded;
+  padding: 24px;
+  border-radius: 14px;
+}
+
+.client .main .card .rattings {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+.client .main .card .rattings .star {
+  width: 20px;
+  height: 20px;
+}
+.client .main .card .body {
+  margin-bottom: 24px;
+}
+.client .main .card .body .title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: start;
+  line-height: 120%;
+  margin-top: 0px;
+}
+
+.client .main .card .body .desc {
+  font-size: 16px;
+  line-height: 140%;
+}
+.client .main .card .author {
+  display: flex;
+  gap: 12px;
+}
+
+.client .main .card .author .info .name {
+  font-size: 16px;
+  line-height: 140%;
+  color: #757575;
+}
+
+.client .main .card .author .info .date {
+  font-size: 16px;
+  line-height: 140%;
+  color: #b3b3b3;
+}
+
+.client .main .card .author .profile img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
